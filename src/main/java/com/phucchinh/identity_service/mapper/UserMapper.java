@@ -13,7 +13,7 @@ import org.mapstruct.MappingTarget;
 public interface UserMapper {
     User toUser(UserCreationRequest request);
 
-    @Mapping(source = "firstName",target = "lastName")
+
     UserResponse toUserResponse(User user);
     void updateUser(@MappingTarget User user, UserUpdateRequest request);
 }

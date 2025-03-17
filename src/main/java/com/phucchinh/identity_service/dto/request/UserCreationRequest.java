@@ -23,3 +23,4 @@ public class UserCreationRequest {
     LocalDate dob;
 
 }
+    
